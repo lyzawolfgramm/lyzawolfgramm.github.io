@@ -1,6 +1,8 @@
 h1 {color: #ffffff;}
 h2 {}
 
+.contHeader { padding: 25px;}
+.contBodyHeader {}
 
 #header,#footer,#content { 
     position:absolute; 
