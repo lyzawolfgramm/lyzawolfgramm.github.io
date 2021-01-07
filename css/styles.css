@@ -8,10 +8,17 @@ header, footer {
     color: #ffffff;
     text-align: center;
     padding: 25px;
+    border-radius: 6px;
 
 }
 
 img {
     width: 250px;
     float: right;
+}
+
+.cont {
+    font-family: 'Zeyada', cursive;
+    font-size: 26px;
+
 }
