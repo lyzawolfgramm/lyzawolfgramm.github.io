@@ -1,5 +1,5 @@
 body {
-    background-color:#000;
+    background-color:#f7f6f0;
     color: #ffffff;
     width: 100%;
     max-width: 850px;
@@ -14,7 +14,7 @@ a:active {color: #333333;}
 
 
 header, footer {
-    background-color: #555555;
+    background-color: #151619;
     color: #ffffff;
     text-align: center;
     margin-top: 25px;
@@ -34,6 +34,7 @@ img {
 .contHeader {
     font-family: 'Montaga', serif;
     font-size: 50px;
+    color: #a7ccd5;
 
 }
 .cont {
