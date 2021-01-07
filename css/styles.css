@@ -4,21 +4,18 @@
         right:0;
         left:0; }
 
-    header, footer {
-        background-color: black;
-        
-    }
-
+  
     header{
        height:70px; top:0;
     
     }
     footer{
-      height:100px; bottom:0;
+      height:70px; bottom:0;
     }
+
     #content{
       top:100px;
       bottom:100px;
-      background-image: linear-gradient(120deg, #000000; 0%, #ebedee 100%); color: #ffffff;
-
+      background-color: black;
+      
     }
