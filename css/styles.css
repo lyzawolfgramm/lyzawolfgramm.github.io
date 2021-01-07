@@ -1,5 +1,5 @@
 body {
-    background-color:#f7f6f0;
+    background-color:#686666;
     color: #ffffff;
     width: 100%;
     max-width: 850px;
@@ -34,7 +34,7 @@ img {
 .contHeader {
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
-    color: #151619;
+    color: #f7f6f0;
 
 }
 .cont {
