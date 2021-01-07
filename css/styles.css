@@ -2,7 +2,7 @@ body {
 
 
 }
-    header, footer, #content { position:absolute; right:0;left:0; background:#000;}
+    header, footer, #content { position:absolute; right:0;left:0; background-color:#000;}
 
     header{
        height:70px; top:0;
