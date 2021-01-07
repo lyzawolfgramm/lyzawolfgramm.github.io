@@ -16,7 +16,7 @@ a:hover {color: pink;}
 a:active {color: #686666;}
 
 header {
-    height: 70px;
+    height: 60px;
 }
 header, footer {
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
