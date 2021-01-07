@@ -22,6 +22,6 @@ body {
     #content{
       top:100px;
       bottom:100px;
-      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); color: #ffffff;
+      background-image: linear-gradient(120deg, #000000; 0%, #ebedee 100%); color: #ffffff;
 
     }
