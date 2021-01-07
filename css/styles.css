@@ -3,8 +3,12 @@ body {
     color: #ffffff;
     width: 800px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+a:link {color: cornflowerblue;}
+a:hover {color: pink;}
 
 header, footer {
     background-color: #555555;
