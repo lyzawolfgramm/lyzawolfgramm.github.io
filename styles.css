@@ -1,6 +1,6 @@
 
 
-header, footer, #content {
+header, footer, .content {
     position:absolute;
     right: 0;
     left: 0;
@@ -13,7 +13,7 @@ header, footer {
     background-color: black;
 }
 
-#content {
+.content {
 top: 100px;
 bottom: 100px;
 background-color: blanchedalmond;
