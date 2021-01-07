@@ -1,6 +1,4 @@
-body {
-    background-color: black;
-}
+
 
 header, footer, #content {
     position:absolute;
@@ -10,3 +8,13 @@ header, footer, #content {
 
 header { height: 70px; top: 0;}
 footer {height: 70px; bottom: 0;}
+
+header, footer {
+    background-color: black;
+}
+
+#content {
+top: 100px;
+bottom: 100px;
+background-color: blanchedalmond;
+}
