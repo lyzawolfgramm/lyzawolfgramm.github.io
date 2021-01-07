@@ -1,5 +1,5 @@
 body {
-    background-color:#151619;
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
     color: #ffffff;
     width: 100%;
     max-width: 850px;
