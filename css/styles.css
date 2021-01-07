@@ -37,6 +37,9 @@ header, footer {
 img {
     max-width: 250px;
     float: right;
+    padding-top:20px;
+    border-radius: 6px;
+
 }
 
 .contHeader {
