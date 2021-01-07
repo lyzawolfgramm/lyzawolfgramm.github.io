@@ -1,5 +1,5 @@
 body {
-    background-color:#686666;
+    background-color:#151619;
     color: #ffffff;
     width: 100%;
     max-width: 850px;
@@ -14,7 +14,7 @@ a:active {color: #686666;}
 
 
 header, footer {
-    background-color: #151619;
+    background-color: #343E41;
     color: #151619;
     text-align: center;
     margin-top: 25px;
