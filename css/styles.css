@@ -20,7 +20,10 @@ header, footer {
     border-radius: 6px;
 
 }
-
+.responsive {
+    width: 100%;
+    height: auto;
+}
 img {
     width: 250px;
     float: right;
