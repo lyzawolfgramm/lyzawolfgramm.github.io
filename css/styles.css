@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 100%);
-    color: #ffffff;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    color: #ffffff;
     width: 100%;
     max-width: 850px;
     margin: auto;
@@ -14,8 +13,8 @@ a:active {color: #686666;}
 
 
 header, footer {
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    color: #151619;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;    color: #151619;
     text-align: center;
     margin-top: 25px;
     padding: 15px;
