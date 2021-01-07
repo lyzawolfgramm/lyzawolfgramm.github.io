@@ -24,7 +24,7 @@ img {
     width: 250px;
     float: right;
 }
-
+hr {width: 250px;}
 .contHeader {
     font-family: 'Montaga', serif;
 
