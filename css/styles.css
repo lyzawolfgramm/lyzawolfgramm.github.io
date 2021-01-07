@@ -2,7 +2,7 @@ body {
 
 
 
-    header,footer,#content { position:absolute; right:0;left:0; background:#CCC}
+    header,footer,#content { position:absolute; right:0;left:0; background:#CCC;}
 
     header{
        height:100px; top:0;
@@ -15,4 +15,4 @@ body {
       top:100px;
       bottom:100px;
         background:#DBEAF9;
-    }}
+    }
