@@ -22,7 +22,8 @@ main {
 a {color: #5D675E;}
 a:hover {color:#858bac;}
 a.footerLink {color: #ffffff;}
-a.footerLink :hover {color:#7f818a;}
+a.footerLink :hover {color:#6d6f77;}
+
 header {padding-bottom: 35px;}
 header, footer {
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
