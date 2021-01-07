@@ -10,12 +10,12 @@ body {
 
 a:link {color: cornflowerblue;}
 a:hover {color: pink;}
-a:active {color: #333333;}
+a:active {color: #686666;}
 
 
 header, footer {
     background-color: #151619;
-    color: #ffffff;
+    color: #151619;
     text-align: center;
     margin-top: 25px;
     padding: 15px;
@@ -34,7 +34,7 @@ img {
 .contHeader {
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
-    color: #a7ccd5;
+    color: #151619;
 
 }
 .cont {
