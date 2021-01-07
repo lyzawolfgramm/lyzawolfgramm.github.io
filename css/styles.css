@@ -1,0 +1,17 @@
+body {
+    background-color:#000;
+
+}
+
+header, footer {
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+
+}
+
+img {
+    width: 250px;
+    float: right;
+}
