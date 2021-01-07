@@ -13,14 +13,14 @@ body {
 }
 main {
     width: 100%;
-    max-width: 500px;
-    padding: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    line-height: 27px;
 
 }
 
-a:link {color: cornflowerblue;}
-a:hover {color: pink;}
-a:active {color: #686666;}
+a {color: #5D675E;}
+a:hover {color:686666}
 
 header {padding-bottom: 35px;}
 header, footer {
