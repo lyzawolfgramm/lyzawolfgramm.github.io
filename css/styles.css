@@ -1,8 +1,8 @@
 body {
 
 
-
-    header,footer,#content { position:absolute; right:0;left:0; background:#CCC;}
+}
+    header, footer, #content { position:absolute; right:0;left:0; background:#CCC;}
 
     header{
        height:100px; top:0;
