@@ -10,7 +10,7 @@ body {
 
 a:link {color: cornflowerblue;}
 a:hover {color: pink;}
-a:active {color: #333333;}
+a:visited {color: #333333;}
 
 header, footer {
     background-color: #555555;
