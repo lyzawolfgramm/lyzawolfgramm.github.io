@@ -4,6 +4,7 @@ body {
     max-width: 850px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    color: #5D675E;
 
 }
 
@@ -12,7 +13,9 @@ body {
 }
 main {
     width: 100%;
-    max-width: 850px;
+    max-width: 500px;
+    padding: 20px;
+
 }
 
 a:link {color: cornflowerblue;}
@@ -51,7 +54,7 @@ img {
 }
 .cont {
     font-size: 25px;
-    color: #d4af37;
+    color: #5D675E;
 
 
 }
