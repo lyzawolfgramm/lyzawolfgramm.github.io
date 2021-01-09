@@ -1,17 +1,14 @@
 body {
-
   background: #c9d6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); 
   background: linear-gradient(to right, #c9d6ff, #e2e2e2);
   color: #545e73; 
 }
-
 a:hover {
  color: #555555;
   background-color: rgba(46,204,113,0.4);
   background: linear-gradient(65deg, rgba(46,204,113,0.2), rgba(243,205,244,0.6));
 }
-
 main {
 	width: 100%;
 	margin: auto;
@@ -21,28 +18,21 @@ section{
 	max-width: 450px;
 	margin: auto;
 }
-
-/*header*/
-
 header {
 	text-align: center;
 
 }
-
 h1 {
 	font-family: 'Meddon', cursive; 
 	color: #222b40;
 	font-size: 44px;
 	display: inline;
-
 }
-
 h2 {
 	color: #a0869a; 
 	font-size: 17px; 
 	text-align: center;
 }
-
 hr{
     border: 0;
     height: 1px;
@@ -53,32 +43,23 @@ hr{
   float: left;
   width: 33.33%;
 }
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .circle1 {
 	width: 300px;
 }
-
-
-
-
 li {
 	list-style-type: none; 
 	padding-bottom: 10px;
 }
-
 .lessonLink { 
 	color: #545e73; 
 	font-size: 14px;
 	padding-bottom: 18px; 
 }
-
 .assignmentLink { 
 	color: #919099;
  	font-size: 16px;
@@ -106,13 +87,9 @@ li {
 }
 
 .js {
-	
 	color: #545e73;
 	background-color: #fff;
 }
-
-
-
 footer {
    position: fixed;
    left: 0;
