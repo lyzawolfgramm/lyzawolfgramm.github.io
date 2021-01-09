@@ -89,8 +89,7 @@ header {
 h1 {
   font-family: 'Meddon', cursive; 
   display: inline;
-  color: #222b40;
-  margin-bottom: 50px;
+	color: #222b40;
 }
 
 h2 {
