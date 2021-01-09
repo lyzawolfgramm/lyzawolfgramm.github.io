@@ -3,6 +3,7 @@
   
   .profile_img {
   	float: left;
+  	padding-left: 100px;
   }
 
   h1 {
@@ -16,13 +17,26 @@
   .contCircle {
   	display: none;
   }
- 
+  hr {
+  	
+  }
 
   section {
-    padding-left: 19px;
-    width: 0;
+  	padding-left: 19px;
 
   }
   
   
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.profile_img {
+  float: left;
+}
+.contCircle {
+  display: none;
+}
+
+
+
 }
