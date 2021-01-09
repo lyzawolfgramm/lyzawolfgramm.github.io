@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  
+  .profile_img {
+  	float: left;
+  	padding-left: 100px;
+  }
+
+  h1 {
+  	font-size: 35px;
+  	display: inline;
+  }
+  h2 {
+  	padding-left:50px;
+
+  }
+  .contCircle {
+  	display: none;
+  }
+  hr {
+  	
+  }
+
+  section {
+  	padding-left: 19px;
+
+  }
+  
+  
+}

@@ -1,6 +1,2 @@
-let d = new Date();
-let year = d.getFullYear();
-document.getElement("").innerhtml = year;
-
-let modified = new Date(document.lastModified);
-document.getElementById("last").innerhtml = modified;
+let LastModified = new Date();  
+document.getElementById("update").innerHTML = LastModified;
