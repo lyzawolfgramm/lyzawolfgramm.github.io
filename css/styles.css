@@ -15,6 +15,7 @@ a:hover {
 main {
 	width: 100%;
 	margin: auto;
+	padding-bottom: 65px;;
 }
 section{
 	max-width: 450px;
