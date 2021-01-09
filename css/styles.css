@@ -66,22 +66,7 @@ hr{
 }
 
 
-/*section*/
 
-
-#left {
-	float: left;
-	width: 50%;
-
-
-}
-
-#right {
-	float: right;
-	width: 50%;
-
-
-}
 
 li {
 	list-style-type: none; 
@@ -126,12 +111,6 @@ li {
 	background-color: #fff;
 }
 
-
-
-.fa-facebook-square {
-	color: #9E8D9A
-;
-}
 
 
 footer {
