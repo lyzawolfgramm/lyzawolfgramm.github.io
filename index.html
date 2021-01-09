@@ -3,47 +3,119 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatiable" content="ie-edge">
-        <title>BYUI Assignment Portal</title>
-        <meta name="description" content="">
+
+        <title>WDD 230 | Assignmentment Portal | Lyza Wolfgramm</title>
+
+        <meta name="description" content="Student Assignment Portal | Lyza Wolfgramm | Web Design & Development Course | WDD 230 | Brigham Young University | Idaho">
+
+        <!--Styles-->
         <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-       </head>
+        <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+        
+        <!-- Fa Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--/Styles -->
+
+        <!-- Scripts  -->
+        <script src="scripts/lastModified.js"></script>
+
+    </head>
     <body>
 
-        <div id="wrapper">
+        <section>
 
 
-        <div id="header">
-            <h1 class="contHeader">Lyza Wolfgramm</h1>
-        </div>
+          <!--Right Side-->  
+          <div class="profile_img">
+            <a class="img" href="#">
+                <div class="img__overlay">
+                    <span class="img_overlay_cont">Thank you </span>
+                    for visiting my page!
+                </div>
 
-        <div id="content">
-            <h2 class="contBodyHeader">WDD 230 | Assignment Portal</h2>
+                <img src="images/me.jpg" alt="Profile Picture of Woman Smiling | Lyza Wolfgramm" />
+            </a>
+             <div class="contCircle">
+                Education<br>
+                BYUI | CIT MAJOR | UTAH<br><br>
+
+                Skills<br>
+                WEB DESIGN | GRAPHIC DESIGN
+                
+             </div>
+          </div>
+          <!--/Right Side-->
+
+
+        <header>
+            <h1>Lyza Wolfgramm</h1>            
+            <h2>WDD 230 | Assignmentment Portal</h2>
+        </header>
         
+            <hr>
 
-        <nav>
-            <ul>
-                <li>Lesson 01: <a href="">Assignment Link</a></li>
-                <li>Lesson 02: <a href="">Assignment Link</a></li>
-                <li>Lesson 03: <a href="">Assignment Link</a></li>
-                <li>Lesson 04: <a href="">Assignment Link</a></li>
-                <li>Lesson 05: <a href="">Assignment Link</a></li>
-                <li>Lesson 06: <a href="">Assignment Link</a></li>
-                <li>Lesson 07: <a href="">Assignment Link</a></li>
-            </ul>
-        </nav>
+        <main>
+            <div id="left">
+                <ul>
+                    <li class="lessonLink">Lesson 1<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 2<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 3<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 4<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 5<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 6<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 7<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                </ul>
+            </div>
 
-        </div>
+            <div id="right">
+                <ul>
+                    <li class="lessonLink">Lesson 8<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 9<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 10<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 11<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 12<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 13<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                    <li class="lessonLink">Lesson 14<br>
+                    <a href="" class="assignmentLink">Assignmentment Link</a></li>
+                </ul>
+            </div>   
+        </main>
+
+        <footer>
+            <div class="contFooter">
+                <span class="contLyza"> &copy; 2021 Lyza Wolfgramm</span> | UTAH |  <a href="" class="byuLink">BYU IDAHO ONLINE LEARNING</a>
+                <a href="https://www.byui.edu/online" target="_blank" class="fb">
+            </div>
+
+            <div class="sm">
+                <i class="fa fa-facebook-square" style="font-size:35px"></i></a>
+            </div>
+        </footer>
 
 
-        <div id="footer">
-            &copy; 2021 | Lyza Wolfgramm | Utah | <a href="" class="footerLink">BYUI Online Learning</a>
-        </div>
+        <script type="text/javascript">
+            function lastModified() {
+                document.write(document.lastModified);
+            }
+        </script>
 
-    </div>
-
+        </section>
 
     </body>
     </html>
