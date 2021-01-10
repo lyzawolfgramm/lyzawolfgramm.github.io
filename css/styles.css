@@ -99,6 +99,7 @@ li {
 	background-color: #fff;
 }
 footer {
+	
    position: fixed;
    left: 0;
    bottom: 0;
@@ -107,4 +108,5 @@ footer {
    background-color: #fff;
    color:#222b40;
    font-size: 13px;
+   border-top:3px solid #9DA2A6;
 }
