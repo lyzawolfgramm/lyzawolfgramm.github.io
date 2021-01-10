@@ -1,5 +1,5 @@
 body {
-  background: #c9d6ff; /* fallback for old browsers */
+  background: #c9d6ff; 
   background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); 
   background: linear-gradient(to right, #c9d6ff, #e2e2e2);
   color: #545e73; 
@@ -39,6 +39,13 @@ hr{
     margin-top: 10px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
 }
+.profilepic {
+   max-width: 450px;
+   width: 100%;
+}
+
+/* three column*/
+
 .column {
   float: left;
   width: 33.33%;
@@ -48,10 +55,9 @@ hr{
   display: table;
   clear: both;
 }
-.circle1 {
-   max-width: 450px;
-   width: 100%;
-}
+
+/*assignment list*/
+
 li {
 	list-style-type: none; 
 	padding-bottom: 10px;
@@ -87,7 +93,7 @@ li {
 	text-decoration: none;
 }
 
-.js {
+.update {
 	color: #545e73;
 	background-color: #fff;
 }
