@@ -7,6 +7,7 @@ body {
 header, footer {
     
     margin: 1.5rem auto;
+    text-align: center;
         
 }
 
@@ -20,8 +21,13 @@ main {
 .contHeader {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 38px;
+    padding-top: 20px;
 
+}
+.contHeader2 {
+    color: #ffffff;
+    font-family: 'Meddon', cursive; display: inline;
 }
 
 p {
@@ -39,6 +45,7 @@ h1, h2 {
 }
 .links {
     color: #333333;
+
 }
 h2 {
     display: inline;
@@ -73,28 +80,30 @@ div {
 /*footer*/
 
 .contFooter {
-    color: #545e73;
+    color: #ffffff;
     text-align: center;
+    background-color: #333333;
 
 }
 
 .contLyza {
     font-family: 'Meddon', cursive; display: inline;
     font-size: 11px;
-    color: #9E8D9A
+    color: #ffffff
 }
 
 .byuLink {
-    color: #545e73;
+    color: #ffffff;
     margin-top: 3px;
     text-decoration: none;
 }
 
 .update {
-    color: #545e73;
+    color: #ffffff;
+    background-color: #333333;
 }
 footer {
  
-   color:#222b40;
+   color:#ffffff;
    font-size: 13px;
 }
