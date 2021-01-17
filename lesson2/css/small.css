@@ -1,0 +1,100 @@
+body {
+    background-color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header, footer {
+    
+    margin: 1.5rem auto;
+        
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    padding: 12px;
+    text-align: center;
+   
+}
+.contHeader {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+
+}
+
+p {
+   font-size: 15px; 
+   line-height: 22px;
+   color: #333333;
+   padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.links {
+    color: #333333;
+}
+h2 {
+    display: inline;
+}
+img {
+    max-width: 300px;
+    align-items: center;
+    padding: 5px;
+}
+
+.contrast {
+    grid-column: 2/3;
+}
+
+.alignment {
+    grid-column: 3/4;
+}
+
+.whitespace {
+    grid-column: 4/5;
+}
+
+div {
+    color: white;
+    border: 1px solid #333333;
+    background-color:#d3d3d3;
+    padding: 4px;
+    margin: .5em 2em;
+
+}
+
+/*footer*/
+
+.contFooter {
+    color: #545e73;
+    text-align: center;
+
+}
+
+.contLyza {
+    font-family: 'Meddon', cursive; display: inline;
+    font-size: 11px;
+    color: #9E8D9A
+}
+
+.byuLink {
+    color: #545e73;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.update {
+    color: #545e73;
+}
+footer {
+ 
+   color:#222b40;
+   font-size: 13px;
+}
