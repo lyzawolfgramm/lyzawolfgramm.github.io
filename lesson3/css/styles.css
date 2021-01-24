@@ -33,6 +33,11 @@ p {
 * {
   box-sizing: border-box;
 }
+.contHeader2 {
+  font-family: 'Meddon', cursive; display: inline;
+  font-size: 20px;
+}
+
 
 .link {
 	color: #38b7f8;
