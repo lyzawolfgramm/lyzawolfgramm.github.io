@@ -1,0 +1,255 @@
+
+body {
+	background: white; 
+	color: #444;
+	font-family: Agenda-Light, sans-serif;
+  height: %;
+    }
+
+section {
+	font-family: 'Archivo', sans-serif;
+	color: #444;
+	font-weight: 100;
+	color: #444;
+	margin: auto;
+	text-align: center;
+	width: 90%;
+
+
+
+}
+
+h2 {
+	font-family: Agenda-Light, sans-serif;
+	text-align: center;
+	color: #444;
+}
+h5 {
+	color: #9dd2ec;
+}
+p {
+	line-height: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.link {
+	color: #38b7f8;
+}
+.domainlink {
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 20px;
+	color: #4bb9f2;
+}
+.domainsize {
+	font-size: 30px;
+}
+.county {color: #7a7a7a; 
+	font-weight: lighter; 
+	font-size: 14px;}
+
+/*cards*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+  font-family: Agenda-Light, sans-serif;
+padding: 20px;
+
+}
+
+.area1, .area2, .area3 {
+  width: 32%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  background-color: #eee; 
+  border: 1px solid	#b0b0af;
+  color: #444;
+  border-radius: 25px;
+  margin-bottom: 80px;
+}
+.pleft {
+	text-align: left;
+
+
+}
+/*Zoom logo effect*/
+.mainlogo {
+	width: 100%;
+}
+.zoom {
+  padding: 55px;
+  padding-top: 0;
+  transition: transform .2s;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5); 
+
+}
+/*profile*/
+
+.profile {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  background: #EEE; 
+  border-radius: 5px; 
+  background-color: #eee;
+  border:2px solid #25a1e1;
+
+  
+}
+.persona {
+	padding-bottom: 175px;
+}
+
+
+/*table*/
+.scheme {
+	padding-top: 30px;
+  margin-bottom: 10px;
+
+}
+.scheme {
+  padding-top: 3px;
+
+}
+.scheme2 {
+	padding-bottom: 25px;
+}
+
+table#colorscheme1 { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #25a1e1; 
+  color: #fff;
+  border-radius: 5px; 
+  width: 80%;
+  text-align: left;
+}
+
+table#colorscheme1 thead th { font-weight: 600; }
+table#colorscheme1 thead th, table#colorscheme1 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#colorscheme1 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee;
+}
+table#colorscheme1 tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+table#colorscheme2 { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #25a1e1; 
+  color: #fff;
+  border-radius: 5px; 
+  width: 80%;
+  text-align: left;
+}
+
+table#colorscheme2 thead th { font-weight: 600; }
+table#colorscheme2 thead th, table#colorscheme2 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#colorscheme2 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee;
+}
+table#colorscheme2 tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+.patch {
+	margin: auto;
+	width: 150px;
+	height: auto;
+	border:2px solid #555;
+}
+.patch1 {
+	background-color: #fff;
+	
+}
+.patch2 {
+	background-color: #25a1e1;
+}
+.patch3 {
+	background-color: #444;
+}
+.patch4 {
+	background-color: #c2d52e;
+}
+
+
+/*typography*/
+.type {
+	margin: auto;
+	width: 150px;
+	height: auto;
+	border:2px solid #555;
+}
+.type1 {
+	font-family: Agenda-Light, sans-serif;
+	
+}
+.type2 {
+	font-family: 'Archivo', sans-serif;
+}
+.type3 {
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+/*footer*/
+.contFooter {
+  margin-top: 10px;
+  color: #545e73;
+  text-align: center;
+}
+
+.contLyza {
+  font-size: 18px;
+
+  color: #4bb9f2;
+  font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.byuLink {
+  color: #545e73;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.update {
+  color: #545e73;
+}
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ffb902;
+   color: #444;
+   text-align: center;
+   height: 70px;
+   font-size: 14px;
+}

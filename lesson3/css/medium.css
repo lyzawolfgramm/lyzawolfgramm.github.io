@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+
+.container {
+    padding-bottom: 100px;
+  }
+  .half {
+    width: 49.5%;
+    padding: 15px;
+
+  }
+  .domainsize {
+  font-size: 25px;
+}
+  .area3 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .persona {
+    padding-bottom: 100px;
+  }
+}

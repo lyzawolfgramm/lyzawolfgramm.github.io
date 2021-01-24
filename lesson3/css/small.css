@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 600px) {
+  .container {
+  	padding-bottom: 50px;
+  }
+  .area1, .area2, .area3 {
+    width: 100%;
+    margin: 11px;
+  }
+  .area2 {
+    margin-top: 5px;
+  }
+  .area3 {
+        margin-bottom: 30px;
+
+  }
+  table#colorscheme1 tbody td{
+    font-size: 14px;
+  }
+  table#colorscheme2 tbody td{
+    font-size: 14px;
+  }
+  .scheme2 {
+    padding-bottom: 0;
+  }
+}
+
