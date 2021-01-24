@@ -223,26 +223,26 @@ table#colorscheme2 tbody tr:not(:last-child) {
 /*footer*/
 .contFooter {
   margin-top: 10px;
-  color: #545e73;
+  color: #000;
   text-align: center;
 }
 
 .contLyza {
   font-size: 18px;
 
-  color: #4bb9f2;
+  color: #000;
   font-family: 'Cedarville Cursive', cursive;
 
 }
 
 .byuLink {
-  color: #545e73;
+  color: #000;
   margin-top: 3px;
   text-decoration: none;
 }
 
 .update {
-  color: #545e73;
+  color: #000;
 }
 .footer {
   position: fixed;
@@ -250,7 +250,7 @@ table#colorscheme2 tbody tr:not(:last-child) {
    bottom: 0;
    width: 100%;
    background-color: #ffb902;
-   color: #444;
+   color: #000;
    text-align: center;
    height: 70px;
    font-size: 12px;
