@@ -14,8 +14,6 @@ section {
 	text-align: center;
 	width: 90%;
 
-
-
 }
 
 h2 {
@@ -36,7 +34,6 @@ p {
   font-family: 'Meddon', cursive; display: inline;
   font-size: 20px;
 }
-
 
 .link {
 	color: #38b7f8;
@@ -130,6 +127,9 @@ padding: 20px;
 }
 .scheme2 {
 	padding-bottom: 25px;
+}
+.tablescheme1{
+  padding-bottom: 150px;
 }
 
 table#colorscheme1 { 
