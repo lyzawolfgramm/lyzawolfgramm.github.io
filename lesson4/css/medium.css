@@ -51,7 +51,9 @@ nav {
 .responsive li {
   display:block;
 }
-
+#inner {
+  margin-left:25%;
+}
  .quote {
   color:#76bb4c;
   text-align: center;

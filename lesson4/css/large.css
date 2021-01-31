@@ -21,7 +21,9 @@ width: 100%;
   margin: 0 0 0 22px;
   font-family: 'Cedarville Cursive', cursive;
 }
-
+#inner {
+  margin-left:25%;
+}
 .quote {
   color:#76bb4c;
   margin-left:20px;
