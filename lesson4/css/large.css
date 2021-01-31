@@ -24,12 +24,27 @@ width: 100%;
 
 .quote {
   color:#76bb4c;
-  margin-left:25px;
+  margin-left:20px;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
+  width: 100%;
   }
 
+main {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 7px;
+
+
+}
+main section {
+  background-color: #fff;
+  border: 1px solid #444;
+  margin: 1.5em 0;	
+  border-radius: 6px;
+}
 footer {
 	height: 70px;
 	line-height: 24px;
