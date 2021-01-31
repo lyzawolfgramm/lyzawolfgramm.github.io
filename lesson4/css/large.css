@@ -1,0 +1,32 @@
+@media (min-width: 64em) {
+
+
+nav {
+width: 100%;
+}
+.navigation {
+	max-width: 1000px;
+}
+footer p {
+	line-height: 24px;
+  }
+.headings h1 {
+  color: #282727;
+  text-shadow: #fff 1px 1px;
+  font-size: 3.2em;
+  margin: 0 0 0 22px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.quote {
+  color:#76bb4c;
+  margin-left:25px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+footer {
+	height: 70px;
+}
+}
