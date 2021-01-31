@@ -32,8 +32,8 @@ header img {
 .headings h1 {
   color: #282727;
   text-shadow: #fff 1px 1px;
-  font-size: 2.2em;
-  margin: 0 0 0 22px;
+  /*font-size: 2.2em;
+  margin: 0 0 0 22px;*/
   font-family: 'Cedarville Cursive', cursive;
 }
 
@@ -42,6 +42,8 @@ header img {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  width: 158px;
+  padding-left: 40px;
   }
 
 nav {
@@ -68,7 +70,7 @@ nav {
   color: #fff;
   font-size: 1em;
   text-transform: uppercase;
-  
+
 }
 .navigation a{
   display: block;
@@ -116,10 +118,8 @@ main {
 main section {
   background-color: #fff;
   border: 1px solid #444;
-  margin: 1.5em 0;	
+  margin: .75em 0;	
   border-radius: 6px;
-
-
 }
 main h2 {
   color: #444;

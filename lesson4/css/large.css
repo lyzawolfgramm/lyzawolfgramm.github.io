@@ -7,9 +7,13 @@ width: 100%;
 .navigation {
 	max-width: 1000px;
 }
-footer p {
-	line-height: 24px;
-  }
+.headings h1 {
+  color: #282727;
+  text-shadow: #fff 1px 1px;
+  font-size: 2.2em;
+  margin: 0 0 0 22px;
+  font-family: 'Cedarville Cursive', cursive;
+}
 .headings h1 {
   color: #282727;
   text-shadow: #fff 1px 1px;
@@ -28,5 +32,6 @@ footer p {
 
 footer {
 	height: 70px;
+	line-height: 24px;
 }
 }
