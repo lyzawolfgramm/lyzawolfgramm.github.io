@@ -106,7 +106,14 @@ nav {
   background-color: #000;
 
 }
-
+section#article1 img{
+  clear: left;
+  float: right;
+  margin: 10px;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 325px;
+}
 }
 
 
