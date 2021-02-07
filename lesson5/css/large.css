@@ -4,7 +4,13 @@
 nav {
 width: 100%;
 }
-
+h1 { 
+  color: #444;
+  font-size: 36px;
+  display: block;
+  line-height: 5%;
+  padding-top: 5%;
+   }
 .navigation {
     display:flex;
     max-width: 1200px;
