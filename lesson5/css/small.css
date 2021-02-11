@@ -23,7 +23,16 @@ h5 {
   font-weight: bold;
 
 }
-
+#pancakeBanner { 
+  text-align: center;
+  background-color: #76bb4c;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 23px;
+}
+#pancakeBanner p {
+  color: #fff;
+}
 
 header {
   background-color:#fff;
