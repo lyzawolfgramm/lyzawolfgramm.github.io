@@ -7,7 +7,7 @@ function toggleMenu() {
 let LastModified = new Date();  
 document.getElementById("currentDate").innerHTML = LastModified;
 
-
+//banner
 const completeDate = new Date();
 let today = completeDate.getDay();
 let element = document.getElementById('pancakeBanner');
