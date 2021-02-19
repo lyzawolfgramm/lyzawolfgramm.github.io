@@ -1,5 +1,5 @@
 let options = {
-  threshold: 1
+  threshold: 0.025
 }
 
 const observer = new IntersectionObserver(imageObserver, options);
