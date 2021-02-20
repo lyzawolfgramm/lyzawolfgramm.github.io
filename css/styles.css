@@ -5,9 +5,12 @@ body {
   color: #545e73; 
 }
 a:hover {
- color: #a0869a;
+ color: #555555;
   background-color: rgba(46,204,113,0.4);
   background: linear-gradient(65deg, rgba(46,204,113,0.2), rgba(243,205,244,0.6));
+}
+a:active, a:visited {
+color: #a0869a;
 }
 main {
 	width: 100%;
