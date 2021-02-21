@@ -114,6 +114,13 @@ section#article1 img{
   width: 100%;
   max-width: 325px;
 }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
 
 }
 

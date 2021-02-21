@@ -277,7 +277,7 @@ main h2 {
 }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 1fr;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -305,8 +305,9 @@ main h2 {
   display: block;
   transition: filter 0.5s;
 
-
 }
+
+.gallery-frame:hover {box-shadow: 0 0 30px #111;}
 
 img[data-src] {
   filter: blur(.6em);
