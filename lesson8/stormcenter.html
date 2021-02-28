@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Idahome | Gallery</title>
+    <meta
+      name="description"
+      content="Ida home | Preston, Idaho | Weather, 5-day forecast | Town events | Whats happening in Preston Idaho."
+    />
+    
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+     <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css"> 
+
+
+ 
+   
+       
+
+</head>
+<body>
+
+
+<header>
+  <section>
+      <div id="inner">
+    <img src="images/myidahomelogo.png" alt="Idahome logo" class="idalogo">
+    </div>
+  </section>
+
+
+  <section class="headings">
+    <h1>www.mydahome.com</h1>
+    <div class="quote">Everything You Need To Know is at www.Idahome.com</div>
+  </section>
+</header>
+
+
+	<nav>
+		  <ul class="navigation">
+    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+    <li><a href="preston-5.html">Home</a></li>
+    <li><a href="#">Preston</a></li>
+    <li><a href="#">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="#">Storm Center</a></li>
+    <li><a href="#">Gallery</a></li>
+  </ul>
+	</nav>
+
+<main">
+
+<fieldset>
+    <legend>Contact Information</legend>
+  <form action="/thanyou.html">
+    <label for="fullname">Fullname Name</label>
+    <input type="text" name="fullname" placeholder="Enter your full Name..."
+    pattern="[A-Za-z0-9_]{5,}" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="mail@example.com">
+
+    <label for="phone">Phone number</label>
+    <input type="tel" name="phone" placeholder="(999) 999-9999" required>
+
+    <label for="zipcode">Zip Code</label>
+    <input type="number" name="zipcode" placeholder="Postal Code" required>
+  </fieldset>
+
+
+  <fieldset>
+   <legend>Storm Information</legend>
+    <label for="stormdate">Date</label>
+    <input type="date" name="stormdate"  placeholder="Storm Date"  required>
+
+    <label for="stormtype">Storm Type</label>
+    <input type="text" list="stormList" id="stormtype" name="stormtype" placeholder="Select Storm Type" />
+
+    <datalist  type="text" id="stormList">
+        <option value="Flash Flood">Flash Flood</option>
+        <option value="Hail">Hail</option>
+        <option value="Hurricane">Hurricane</option>
+        <option value="Thuderstorm">Thuderstorm</option>
+        <option value="Tornado">Tornado</option>
+    </datalist>
+
+<div class="slider">
+  <label class="flexly" for="rating">Rating: Level of Storm Severity from 1-10 &nbsp;&nbsp;&nbsp;
+      <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" placeholder="Storm Severity" >
+      <span id="ratingvalue">5</span>
+    </label>
+    <datalist id="tickmarks">
+      <option value="0">
+      <option value="1">
+      <option value="2">
+      <option value="3">
+      <option value="4">
+      <option value="5">
+      <option value="6">
+      <option value="7">
+      <option value="8">
+      <option value="9">
+      <option value="10">
+    </datalist>
+</div>
+
+  <label for="stormregion">Storm Region</label>
+    <input type="text" list="stormRegionList" id="stormtype" name="stormregion" />
+
+    <datalist  type="text" id="stormRegionList">
+        <option value="Preston">Preston</option>
+        <option value="Soda Springs">Soda Springs</option>
+        <option value="Fish Haven">Fish Haven</option>
+    </datalist>
+
+
+    <p>Are you in danger?</p>
+    <label class="rad"><input type="radio" name="danger" value="yes">Yes!</label>
+    <label class="rad"><input type="radio" name="danger" value="maybe">Maybe</label>
+    <label class="rad"><input type="radio" name="danger" value="no">No</label>
+</fieldset>
+
+<fieldset>
+      <legend>Comments</legend>
+        <label>
+            <textarea id="textArea" name="comments" rows="4" cols="70">
+                </textarea>
+        </label>
+
+         <input type="submit" value="Report Storm" class="submit">
+</fieldset>
+           
+           
+          </form>
+    </main>
+
+	<footer>
+        <p>&copy; 2021 IDAHOME | LYZA WOLFGRAMM<br/>
+             <span id="currentDate"></span>
+</p>
+    </footer>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>	
+<script src="js/lazyloading.js" ></script>
+<script src="js/scripts.js" ></script>
+
+</body>
+</html>
