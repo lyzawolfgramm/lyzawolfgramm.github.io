@@ -1,0 +1,106 @@
+body {
+  background-color: #CDCDC3;
+}
+h1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #06222E;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  text-align: center;
+  color: navy;
+  font-size: 35px;
+  color: #a88348;
+}
+main section {
+  margin-left: 25px;
+}
+section img {
+  width: 100%;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.cards section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    font-size: 24px;
+    background-color: #06222E;
+    color: #fff;
+}
+
+
+img {
+  float: left;
+    width:  100px;
+    height: 600px;
+    object-fit: cover;
+}
+footer {
+  max-width: 820px;
+  margin: 0 auto;
+  border-top: 1px solid #555;
+  text-align: center;
+
+}
+
+/*medium or tablet view*/
+@media only screen and (min-width: 37.5em) {
+    h1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+img {
+  float: left;
+    width:  100px;
+    height: 500px;
+    object-fit: cover;
+}
+.cards section {
+    
+    font-size: 18px;
+
+}
+.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px;
+
+
+    }
+
+/*large or desktop view*/
+@media only screen and (min-width: 60em) {
+   h1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+ img {
+  float: left;
+    width:  100px;
+    height: 300px;
+    object-fit: cover;
+}
+.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
