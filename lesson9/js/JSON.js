@@ -9,6 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
+                
                 let card = document.createElement('section');
                 let divText = document.createElement('div');
                 let divImg = document.createElement('div');
@@ -18,6 +19,7 @@ fetch(requestURL)
                 let population = document.createElement('p');
                 let annualRainFall = document.createElement('p');
                 let image = document.createElement('img');
+                
                 divText.className = "textContainer";
                 divImg.className = "imgContainer";
                 h2.textContent = towns[i].name;
@@ -26,6 +28,7 @@ fetch(requestURL)
                 yearFounded.textContent = `Year Founded: ${towns[i].yearFounded}`;
                 population.textContent = `Population: ${towns[i].currentPopulation}`;
                 annualRainFall.textContent = `Annual Rain Fall: ${towns[i].averageRainfall}`;
+
                 image.setAttribute('src', 'images/' + towns[i].photo);
                 divText.appendChild(h2);
                 divText.appendChild(motto);
