@@ -14,25 +14,28 @@ fetch(requestURL)
                 let divText = document.createElement('div');
                 let divImg = document.createElement('div');
                 let h2 = document.createElement('h2');
+                
+
+
                 let motto = document.createElement('p');
                 let yearFounded = document.createElement('p');
-                let population = document.createElement('p');
-                let annualRainFall = document.createElement('p');
+                let pop = document.createElement('p');
+                let averageRainfall = document.createElement('p');
                 let image = document.createElement('img');
                 
                 h2.textContent = towns[i].name;
                 motto.className = 'motto';
                 motto.textContent = towns[i].motto;
-                yearFounded.textContent = `Year Founded: ${towns[i].yearFounded}`;
-                population.textContent = `Population: ${towns[i].currentPopulation}`;
-                annualRainFall.textContent = `Annual Rain Fall: ${towns[i].averageRainfall}`;
+                yearFounded.textContent = `Founded: ${towns[i].yearFounded}`;
+                pop.textContent = `Population: ${towns[i].currentPopulation}`;
+                averageRainfall.textContent = `Average Rain Fall: ${towns[i].averageRainfall}`;
 
                 image.setAttribute('src', 'images/' + towns[i].photo);
                 divText.appendChild(h2);
                 divText.appendChild(motto);
                 divText.appendChild(yearFounded);
-                divText.appendChild(population);
-                divText.appendChild(annualRainFall);
+                divText.appendChild(pop);
+                divText.appendChild(averageRainfall);
                 divImg.appendChild(image);
                 card.appendChild(divText);
                 card.appendChild(divImg);
