@@ -31,14 +31,15 @@ fetch(requestURL)
                 averageRainfall.textContent = `Average Rain Fall: ${towns[i].averageRainfall}`;
 
                 image.setAttribute('src', 'images/' + towns[i].photo);
-                divText.appendChild(h2);
-                divText.appendChild(motto);
-                divText.appendChild(yearFounded);
-                divText.appendChild(pop);
-                divText.appendChild(averageRainfall);
+                card.append(h2);
+                card.append(motto);
+                card.append(yearFounded);
+                card.append(pop);
+                card.append(averageRainfall);
+
                 divImg.appendChild(image);
-                card.appendChild(divText);
                 card.appendChild(divImg);
+                
                 document.querySelector('div.cards').appendChild(card);
             }
 
