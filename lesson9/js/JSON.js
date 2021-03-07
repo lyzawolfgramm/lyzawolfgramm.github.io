@@ -20,8 +20,6 @@ fetch(requestURL)
                 let annualRainFall = document.createElement('p');
                 let image = document.createElement('img');
                 
-                divText.className = "textContainer";
-                divImg.className = "imgContainer";
                 h2.textContent = towns[i].name;
                 motto.className = 'motto';
                 motto.textContent = towns[i].motto;
