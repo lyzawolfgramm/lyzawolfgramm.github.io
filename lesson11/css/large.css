@@ -1,0 +1,103 @@
+@media (min-width: 64em) {
+
+
+nav {
+width: 100%;
+}
+h1 { 
+  color: #444;
+  font-size: 36px;
+  display: block;
+  line-height: 5%;
+  padding-top: 5%;
+   }
+.navigation {
+    display:flex;
+    max-width: 1200px;
+
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation li {
+    display:block;
+    flex:1 1 100%;
+  }
+
+.headings h1 {
+  color: #282727;
+  text-shadow: #fff 1px 1px;
+  font-size: 3.2em;
+  margin: 0 0 0 22px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+#inner {
+  margin-left:25%;
+}
+.quote {
+  color:#76bb4c;
+  margin-left:20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  }
+  .weatherfont {
+  position: relative;
+  z-index: 5;
+  color: #fff;
+}
+/* overlay */
+.weathersummary {
+  position: absolute; 
+  top: 20px;
+  left: 50px;
+  border: .5px solid #333;
+  padding: 1.1rem;
+  box-shadow: 0 0 30px #777;
+  opacity: 0.45;
+  color: #fff;
+  width: 220px;
+  background-color: #000;
+
+}
+.welcomeText {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.2rem;
+  text-shadow:1px 1px 20px #000, 1px 1px 10px #ccc;
+  color: #fff;
+
+
+}
+main {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 7px;
+  padding-bottom: 100px;
+
+}
+main section {
+  background-color: #fff;
+  margin: 1.5em 0;	
+}
+ section .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        grid-gap: 8px;
+
+
+    }
+
+
+
+
+
+footer {
+	line-height: 24px;
+}
+}

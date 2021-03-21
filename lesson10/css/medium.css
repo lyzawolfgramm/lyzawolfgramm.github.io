@@ -112,32 +112,8 @@ section#article1 img{
   margin: 10px;
   padding-left: 10px;
   width: 100%;
+  max-width: 325px;
 }
-.welcomeText {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  text-shadow:1px 1px 20px #000, 1px 1px 10px #ccc;
-  color: #fff;
-}
-
-.cards section {
-        display: grid;
-  grid-template-columns: 1fr 1fr;
-
-    }
-.cards section:nth-child(odd) img {
-  grid-column: 2;
-}
-
-.cards section:nth-child(odd) .data {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-
 }
 
 

@@ -123,20 +123,12 @@ section#article1 img{
   color: #fff;
 }
 
-.cards section {
-        display: grid;
-  grid-template-columns: 1fr 1fr;
+/*****radio****/
 
-    }
-.cards section:nth-child(odd) img {
-  grid-column: 2;
+label.rad {
+  margin: 0 0 0 120px;
 }
-
-.cards section:nth-child(odd) .data {
-  grid-column: 1;
-  grid-row: 1;
-}
-
+/*
 
 }
 
