@@ -188,22 +188,31 @@ section#contact h1 {
   position: relative;
   display: block
 }
+.summary {
+text-shadow: 2px 2px 3px #444;
+  color: #fff;
+}
 
 .weatherfont {
-  position: relative;
+  opacity: 0.85;
   z-index: 5;
   color: #fff;
+}
+.weatherfont2 {
+  opacity: 0.85;
+  z-index: 5;
+  color: yellow;
 }
 /* overlay */
 .weathersummary {
   position: relative; 
   top: 20px;
   border: .5px solid #333;
-  box-shadow: 0 0 30px #777;
-  opacity: 0.95;
-  color: #fff;
+  box-shadow: 0 0 30px #fff;
   width: 100%;
-  background-color: #444;
+  background-color: #555;
+  line-height: 80%;
+
 
 
 }

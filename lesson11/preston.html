@@ -76,12 +76,16 @@
     <section class="weathersummary">
 
       
-        <h3>Weather Summary</h3>
-      <hr>
-      <p class="weatherfont">Temperature: 51&#176;</p>
-      <p class="weatherfont">Precipitation: 19%</p>
-      <p class="weatherfont">Humidity: 100%</p>
-      <p class="weatherfont">Wind Speed: 6mph</p>
+      <h3 class="summary">Weather Summary</h3>
+          
+          <p class="weatherfont" >Currently: <span id="temperature" class="weatherfont2"></span><span class="weatherfont2"> &deg;C</span></p>
+          <p  class="weatherfont" >High <span id="high" class="weatherfont2"></span> <span class="weatherfont2">&deg;C &nbsp;| &nbsp;</span>  Low 
+          <span id="low" class="weatherfont2"></span><span class="weatherfont2"> &deg;C</span></p>
+          <hr>
+          <p class="weatherfont" >Humidity: <span id="humidity" class="weatherfont2"></span><span class="weatherfont2">%</span></p>
+          <p class="weatherfont" >Wind Chill: <span id="chill" class="weatherfont2"></span></p>
+          <p class="weatherfont" >Wind Speed: <span id="wind" class="weatherfont2"></span><span class="weatherfont2"> mph</span></p>
+
   
     </section>
    </div>
@@ -180,6 +184,7 @@ Pocatello, ID 83204, United States</p>
     </footer>
 	
 <script src="js/scripts.js" ></script>
+<script src="js/prestonapi.js" ></script>
 
 </body>
 </html>

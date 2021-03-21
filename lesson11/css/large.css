@@ -42,25 +42,7 @@ h1 {
   font-weight: bold;
   width: 100%;
   }
-  .weatherfont {
-  position: relative;
-  z-index: 5;
-  color: #fff;
-}
-/* overlay */
-.weathersummary {
-  position: absolute; 
-  top: 20px;
-  left: 50px;
-  border: .5px solid #333;
-  padding: 1.1rem;
-  box-shadow: 0 0 30px #777;
-  opacity: 0.45;
-  color: #fff;
-  width: 220px;
-  background-color: #000;
 
-}
 .welcomeText {
   position: absolute;
   top: 30%;

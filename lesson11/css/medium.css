@@ -86,24 +86,39 @@ nav {
   position: relative;
   display: block
 }
+.summary {
+  color:#4ca7d2;
+  font-size: 26px;
+  display: inline;
+  text-shadow: 2px 2px 3px #444;
+  color: #fff;
 
+
+}
 .weatherfont {
   position: relative;
+  z-index: 5;
+  color: #ade0fa;
+  line-height: 50%;
+
+}
+.weatherfont2 {
+  opacity: 0.85;
   z-index: 5;
   color: #fff;
 }
 /* overlay */
 .weathersummary {
   position: absolute; 
-  top: 20px;
+  line-height: normal;
+  top: 25px;
   left: 50px;
-  border: .5px solid #333;
-  padding: 1.1rem;
+  border: .5px solid #f1f1f1;
+  padding: .70rem;
   box-shadow: 0 0 30px #777;
-  opacity: 0.45;
-  color: #fff;
   width: 220px;
-  background-color: #000;
+  background-color: #555;
+  opacity: 0.90;
 
 }
 section#article1 img{
