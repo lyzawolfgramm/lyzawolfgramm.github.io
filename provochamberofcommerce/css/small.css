@@ -1,0 +1,375 @@
+body {
+	background-color: #F1F0EB;
+	color: #444;
+}
+
+section {
+	margin: auto;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+
+}
+h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #4056A1;
+}
+.content {
+	font-size: 1.1rem;
+  	font-family: Agenda-Light, sans-serif;
+	justify-content: justify;
+	padding-top: 0;
+	width: 95%;
+	margin: auto;
+	color: #444;
+	line-height: 26px
+
+
+
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.logoimg {
+  width: 90px;
+  float: left;
+}
+.logofont {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 12px;
+  
+}
+
+nav {
+  margin: 0 auto;
+  width:100%;
+  background-color:#d79922;
+  border-bottom: 2px solid #fff;
+}
+
+.navigation {
+  list-style:none;
+  text-align:center;
+  background-color:#d79922;
+  padding:0;
+  margin: auto;
+}
+.navigation li:first-child{
+  display:block;
+}
+.navigation li{
+  display:none;
+}
+.navigation li a{
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+
+}
+.navigation a{
+  display: block;
+  color:#444;
+  padding:1em;
+  text-align:center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navigation a:hover{
+  color:#6774a2;
+  background-color:#d79922;
+  font-weight: 700;
+}
+.responsive li {
+  display:block;
+}
+.herodiv {
+  position: relative;
+  display: block
+}
+.herodiv button:hover {
+	background-color: #555;
+  color: white;
+}
+
+.welcomeText {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.mainbox {
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	background-color: #f13c20;
+	font-size: 1rem;
+	font-weight: bold;
+	border: 2px solid #fff;
+	
+}
+.join {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.card {
+	width: 100%;
+	}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 7px solid #F1F0EB;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section#contact {
+  background-color: #d4d4d2;
+  color: #d79922;
+}
+.column1 {
+    width: 100%;
+
+}
+.cont1 {
+  color: #4056a1;
+  text-align: center;
+}
+.cont2 {
+  color: #444;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+    
+
+}
+.fa {
+  padding-right: 10px;
+}
+.sm {
+  width: 250px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sm1 {
+  margin-right: 45px;
+  width: 50px;
+  float: left;
+}
+
+.foot {
+  	color: #fff;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+/*table*/
+.scheme {
+	padding-top: 30px;
+  margin-bottom: 10px;
+
+}
+.scheme {
+  padding-top: 3px;
+
+}
+.scheme2 {
+	padding-bottom: 25px;
+}
+.tablescheme1{
+  padding-bottom: 70px;
+}
+
+table#colorscheme1 { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #d79922; 
+  color: #fff;
+  border-radius: 5px; 
+  width: 80%;
+  text-align: left;
+}
+
+table#colorscheme1 thead th { font-weight: 600; }
+table#colorscheme1 thead th, table#colorscheme1 tbody td { 
+  padding: .8rem; font-size: .90rem;
+}
+table#colorscheme1 tbody td { 
+  padding: .8rem; font-size: 1rem;
+  color: #444; background: #f7f6f6;
+}
+table#colorscheme1 tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+table#colorscheme2 { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #25a1e1; 
+  color: #fff;
+  border-radius: 5px; 
+  width: 80%;
+  text-align: left;
+}
+
+table#colorscheme2 thead th { font-weight: 600; }
+table#colorscheme2 thead th, table#colorscheme2 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#colorscheme2 tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee;
+}
+table#colorscheme2 tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+.patch {
+	margin: auto;
+	width: 150px;
+	height: auto;
+	border:2px solid #555;
+}
+.patch1 {
+	background-color: #fff;
+	
+}
+.patch2 {
+	background-color: #25a1e1;
+}
+.patch3 {
+	background-color: #444;
+}
+.patch4 {
+	background-color: #c2d52e;
+}
+
+/******forms******/
+
+fieldset {
+  background-color: #f7f6f6;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+legend {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #444;
+   padding: 25px 0 20px 0;
+
+}
+
+label {
+  color: #444;
+  float: left;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+input[type=text],[type=email],[type=tel],[type=number],[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  max-width: 300px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=text]:focus {
+  background-color: #dbeefa;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+textarea {
+    width: 100%;
+    padding-left: 10px;
+  }
+.subbtn {
+  margin: 50px;
+}
+.flexly {
+  display: flex;
+  align-items: center;
+}
+
+#ratingvalue {
+  margin: 0 15px;
+  color: #2075ff;
+}
+.levels {
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+}
+.mempack {
+	color: #f13c20;
+	font-weight: bold;
+}
+
+
+
+footer {
+  	background-color: #444;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

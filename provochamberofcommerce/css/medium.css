@@ -1,0 +1,133 @@
+@media only screen and (min-width:32.5em){
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+
+}
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #4056A1;
+}
+  nav {
+  margin: 0 auto;
+  width:100%;
+  background-color:#d79922;
+  border-bottom: 2px solid #fff;
+}
+
+.navigation {
+  list-style:none;
+  text-align:center;
+  background-color:#d79922;
+  padding:0;
+  margin: auto;
+}
+.navigation li:first-child{
+  display:block;
+}
+.navigation li{
+  display:none;
+}
+.navigation li a{
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  
+}
+.navigation a{
+  display: block;
+  color:#444;
+  padding:1em;
+  text-align:center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navigation a:hover{
+  color:#6774a2;
+  background-color:#d79922;
+  font-weight: 700;
+}
+.logoimg {
+  width: 70px;
+  float: left;
+}
+
+.logofont {
+  font-size: 1.7rem;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 12px;
+  
+}
+
+.welcomeText {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.mainbox {
+  width: 450px;
+  height: 60px;
+  color: #fff;
+  background-color: #f13c20;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #fff;
+  
+}
+.join {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.card {
+  width: 200px;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 7px solid #F1F0EB;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row1 {
+  color: #fff;
+  display: flex;
+
+}
+
+.foot {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+
+}
